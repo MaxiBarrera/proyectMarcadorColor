@@ -12,9 +12,11 @@ h1 {
     rgb(245, 62, 113),
     rgb(162, 27, 27)
   );
+  box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
 }
 .green {
   background: linear-gradient(#55680d, #71f53e, #116c31);
+  box-shadow: 0 0 20px 0 #3b7e20cc;
 }
 .blue {
   background: linear-gradient(
@@ -22,6 +24,7 @@ h1 {
     hsl(223, 90%, 60%),
     hsl(240, 56%, 42%)
   );
+  box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
 }
 .container {
   background-color: rgb(255, 255, 255);
@@ -31,6 +34,7 @@ h1 {
   width: 110px;
   height: 25px;
   background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
 }
 .cap {
   width: 60px;
@@ -41,6 +45,7 @@ h1 {
   display: inline-block;
 }
 
-/* es solo coom guia de la posicion de los colores
+/* es solo como guia de la posicion de los colores
 background-color: rgb(red, green, blue);
+background-color: rgba(red, green, blue, alpha);
 background-color: hsl(hue, saturation, lightness);*/
